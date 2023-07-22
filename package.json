@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "train": "tsx src/train.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.1.0",
+    "@huggingface/inference": "1",
+    "@pinecone-database/pinecone": "^0.1.6",
+    "cohere-ai": "^6.2.2",
+    "dotenv": "^16.3.1",
+    "faiss-node": "^0.2.2",
+    "hono": "^3.3.1",
+    "langchain": "^0.0.111",
+    "openai": "^3.3.0",
+    "pickleparser": "^0.1.0"
+  },
+  "devDependencies": {
+    "tsx": "^3.12.2"
+  }
+}
